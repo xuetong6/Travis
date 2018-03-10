@@ -1,0 +1,3 @@
+language: node
+rvm:
+ - v8.9.4
