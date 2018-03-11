@@ -8,7 +8,6 @@ import Config from './config/config';
 
 const app = new Koa();
 initController.init(app,router);
-
  
 app.context.render = co.wrap(render({
   root: Config.get('viewDir'),
