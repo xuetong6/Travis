@@ -1,0 +1,8 @@
+host 139.199.72.81
+User root
+IdentityFile ~/.ssh/xuetong_rsa
+Protocol 2
+Compression yes
+ServerAliveInterval 60
+ServerAliveCountMax 20
+LogLevel INFO
